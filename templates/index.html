@@ -1,0 +1,281 @@
+
+
+<!doctype html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="docsearch:language" content="ru">
+<meta name="docsearch:version" content="5.0">
+<title>Cyberpunk 2022</title>
+<!-- Bootstrap core CSS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+<link rel="stylesheet" href="https://bootstrap5.ru/css/docs.css">
+<!-- Favicons -->
+<link rel="icon" type="image/png" href="Resources/favicon.png"/>
+
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+</style>
+    <!-- Custom styles for this template -->
+    {% load static %}
+    <link href="{% static 'style.css' %}" rel="stylesheet"></head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Cyberpunk2022</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Галерея</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Авторизация</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMidYMid slice" role="img" focusable="false">
+          <rect width="100%" height="100%" fill="#777">
+          <img src="{% static 'Resources/big_1.jpg' %}">
+          </rect></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>СОЗДАЙТЕ СВОЙ МИР КИБЕРПАНКА</h1>
+            <p>Уничтожайте всех, кто встанет у вас на пути, будь то корпоративная охрана и полиция, банды и другие наёмники, улучшайте свою репутацию и получайте более выгодные заказы.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMidYMid slice" role="img" focusable="false">
+          <rect width="100%" height="100%" fill="#777">
+            <img src="{% static 'Resources/big_2.jpg' %}">
+          </rect></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>ПОСЕЛИТЕСЬ В ГОРОДЕ БУДУЩЕГО</h1>
+            <p>Живите в ритме фантастического города: выбирайтесь в заброшенные районы, где бесчинствуют банды, закупайтесь в многолюдном центре города и одалживайте у корпораций новейшее снаряжение на частной территории.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveaspectratio="xMidYMid slice" role="img" focusable="false"><rect width="100%" height="100%" fill="#777">
+          <img src="{% static 'Resources/big_3.jpg' %}">
+        </rect></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>СТАНЬТЕ ЛЕГЕНДОЙ</h1>
+            <p>Проворачивайте смелые аферы и заводите дружбу с харизматичными персонажами, на жизнь которых влияют ваши решения.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-Заголовок">НАЙТ-СИТИ ИЗМЕНИТ ВАС НАВСЕГДА</h2>
+        <p class="lead">Cyberpunk 2022 — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Вы играете за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Вы сможете менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где ваши поступки влияют на ход сюжета и всё, что вас окружает..</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" preserveaspectratio="xMidYMid slice" focusable="false" width="500" height="500" src="{% static 'Resources/small_1.jpg' %}">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-Заголовок">СОЗДАЙТЕ СВОЙ МИР КИБЕРПАНКА</h2>
+        <p class="lead">Станьте оснащённым имплантами преступником и сделайте себе имя на улицах Найт-Сити.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" preserveaspectratio="xMidYMid slice" focusable="false" width="500" height="500" src="{% static 'Resources/small_2.jpg' %}">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-Заголовок">ПОСЕЛИТЕСЬ В ГОРОДЕ БУДУЩЕГО</h2>
+        <p class="lead">В Найт-Сити всегда есть чем заняться, куда сходить и с кем поговорить. Место, время и способ передвижения выбираете только вы.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" preserveaspectratio="xMidYMid slice" focusable="false" width="500" height="500" src="{% static 'Resources/small_3.jpg' %}">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  <script src="{% static "node_modules/jquery/dist/jquery.min.js" %}"></script>
+  <script>
+    
+  function getCookie(name)
+  {
+    let matches = document.cookie.match(new RegExp(
+      "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+  }
+
+  function setCookie(name, value, options = {}) {
+
+    options = {
+      path: '/',
+      // при необходимости добавьте другие значения по умолчанию
+      ...options
+    };
+    
+    if (options.expires instanceof Date) {
+      options.expires = options.expires.toUTCString();
+    }
+    
+    let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+    
+    for (let optionKey in options) {
+      updatedCookie += "; " + optionKey;
+      let optionValue = options[optionKey];
+      if (optionValue !== true) {
+        updatedCookie += "=" + optionValue;
+      }
+    }
+    
+    document.cookie = updatedCookie;
+  }
+    
+    $(document).ready(function()
+    {
+      //localStorage.clear()
+      //if 1st time on page
+      //console.log(localStorage.getItem('visits'))
+      if (getCookie('visits') == null)
+      {
+        setCookie('visits', 0)
+        var row = "Так как вы здесь в первый раз, то просим указать предпочитаемый язык перевода данной страницы нашего сайта";
+        $('#storageDataString').append(row);
+      }
+      else
+      {
+        var langSelected = localStorage.getItem('lang');
+        var lastVisitDate = localStorage.getItem('visitDate');
+        var row = $('<p>Ваш предпочитаеммый язык : '+ langSelected + '. <br>Ваша   последняя дата визита : '+ lastVisitDate +'</br></p>');
+        $('#storageDataString').append(row);
+      }
+      
+      var visited = parseInt(getCookie('visits'));
+      visited += 1;
+      alert("Кол-во посещений главной страницы = " + visited);
+      setCookie('visits', visited);
+      
+      var button = document.querySelector("#btn1");
+      button.addEventListener("click", function()
+      {
+        var selectedLang = $('#langSelect').val();
+        localStorage.setItem('lang', selectedLang);
+        let date = new Date();
+        if(selectedLang == 'en')
+        {
+          date = date.toUTCString();
+        }
+        localStorage.setItem('visitDate', date);
+        alert('Язык перевода был успешно выбран!');
+      });
+    });
+  </script>
+    
+
+  <div style="display: flex; justify-content: space between; width: 60%; margin: .5rem;">
+    <a id="storageDataString"></a>
+  </div>
+  
+  <div style="display: flex; justify-content: space between; width: 60%; margin: .5rem;" for="localStorageInfo">
+    <label>Выберите предпочитаемый язык:</label>
+    <select style="" id="langSelect">
+      <option>ru</option>
+      <option>en</option>
+    </select>
+  </div>
+  
+  <div>
+  <button id="btn1">Принять</button>
+  </div>
+    
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Наверх</a></p>
+    <p>&copy; 2021-2022 Team11, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main><script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
