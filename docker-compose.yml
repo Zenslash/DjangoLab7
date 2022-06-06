@@ -20,5 +20,6 @@ services:
       MYSQL_PASSWORD: 'password'
       MYSQL_ROOT_PASSWORD: 'password'
     restart: always
+    tty: true
     volumes:
     - ./db/:/root/db/
